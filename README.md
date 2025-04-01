@@ -29,6 +29,16 @@ ERROR: source directory app does not exist
 FATAL ERROR: refusing to proceed without --force due to above error
 ```
 
+```bash
+west build app -b zswatch_nrf5340_cpuapp@3 -- -DOVERLAY_CONFIG=boards/debug.conf -DBOARD_ROOT=${PWD}/app
+
+ninja: build stopped: subcommand failed.
+FATAL ERROR: command exited with status 1: /opt/homebrew/bin/cmake --build /Users/zephyr/testmartin/ZSWatch/build
+
+```
+
+
+
 | Platform                        |      |      |
 | ------------------------------- | ---- | ---- |
 | Macbook Pro M4 pro no Defender  |      |      |
