@@ -1,12 +1,12 @@
 # benchZephyr
 
-Install SDK
+## Install SDK
 
 From: https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 
 
-Bench ZSWatch
+## Bench ZSWatch
 
 From https://github.com/ZSWatch/ZSWatch?tab=readme-ov-file#environment-compiling-and-running-the-code
 
@@ -31,7 +31,7 @@ time west build app -p -b zswatch@5/nrf5340/cpuapp -- -DOVERLAY_CONFIG=boards/re
 
 
 
-# Bench shell_module
+## Bench shell_module
 
 from https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=57EE0A71C0EF4C43B310CBC660A9411D&auth=2
 
