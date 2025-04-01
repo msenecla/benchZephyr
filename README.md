@@ -6,7 +6,32 @@ From: https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 
 
-Bench shell_module
+Bench ZSWatch
+
+From https://github.com/ZSWatch/ZSWatch?tab=readme-ov-file#environment-compiling-and-running-the-code
+
+git clone git@github.com:ZSWatch/ZSWatch.git
+
+```
+cd ZSWatch
+git submodule update --init --recursive
+cd app
+west init -l .
+west update
+time west build app -p -b zswatch@5/nrf5340/cpuapp -- -DOVERLAY_CONFIG=boards/release.conf -DBOARD_ROOT=${PWD}/app
+```
+
+
+
+| Platform           |      |      |
+| ------------------ | ---- | ---- |
+| Macbook Pro M4 pro |      |      |
+|                    |      |      |
+|                    |      |      |
+
+
+
+# Bench shell_module
 
 from https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=57EE0A71C0EF4C43B310CBC660A9411D&auth=2
 
