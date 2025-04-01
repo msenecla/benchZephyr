@@ -10,7 +10,9 @@ From: https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 From https://github.com/ZSWatch/ZSWatch?tab=readme-ov-file#environment-compiling-and-running-the-code
 
+```bash
 git clone git@github.com:ZSWatch/ZSWatch.git
+```
 
 ```bash
 cd ZSWatch
@@ -79,5 +81,5 @@ time west build -p -b nrf5340dk/nrf5340/cpuapp
 | ------------------------------- | ------------------------------------------------------------ | ---- |
 | ok Pro M4 pro no Defender       | west build -b nrf5340dk/nrf5340/cpuapp 21.63s user 6.38s system 424% cpu 6.602 total |      |
 | MacBook Pro Intel no Defender   |                                                              |      |
-| MacBook Pro Intel with Defender |                                                              |      |
+| MacBook Pro Intel with Defender | west build -p -b nrf5340dk/nrf5340/cpuapp 101.03s user 28.80s system 110% cpu 1:57.44 total |      |
 
