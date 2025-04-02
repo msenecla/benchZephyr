@@ -79,7 +79,8 @@ time west build -p -b nrf5340dk/nrf5340/cpuapp
 
 | Platform                        |                                                              |      |
 | ------------------------------- | ------------------------------------------------------------ | ---- |
-| ok Pro M4 pro no Defender       | west build -b nrf5340dk/nrf5340/cpuapp 21.63s user 6.38s system 424% cpu 6.602 total |      |
+| Macbook Pro M4 pro no Defender       | west build -b nrf5340dk/nrf5340/cpuapp 21.63s user 6.38s system 424% cpu 6.602 total |      |
+| Macbook Air M? no Defender       | west build -p -b nrf5340dk/nrf5340/cpuapp  26,50s user 5,76s system 348% cpu 9,257 total |      |
 | MacBook Pro Intel no Defender   |                                                              |      |
 | MacBook Pro Intel with Defender | west build -p -b nrf5340dk/nrf5340/cpuapp 101.03s user 28.80s system 110% cpu 1:57.44 total |      |
 
